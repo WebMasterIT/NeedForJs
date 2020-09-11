@@ -67,8 +67,6 @@ table {
     height: 100px;
     background: transparent url('/image/player3.png') center / cover no-repeat;
     transform: rotate(180deg) scale(1.5);
-    left: 125px;
-    bottom: 30px;
     position: absolute;
 }
 
@@ -87,4 +85,56 @@ table {
     height: 50px;
     background: #fff;
     left: 145px;
+}
+
+.start {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: #fff;
+    font-size: 1.5rem;
+    background: #000;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: 5px solid;
+    border-color:rgb(12, 146, 255) ;
+}
+
+.restart{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: #fff;
+    font-size: 1.5rem;
+    background: #000;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: 5px solid;
+    border-color:rgb(255, 12, 12) ;
+}
+
+.score {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgb(51, 9, 241);
+    padding: 2rem 0;
+    z-index: 200;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 500;
 }
