@@ -1,0 +1,26 @@
+{
+  "name": "nfjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebMasterIT/NeedForJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebMasterIT/NeedForJs/issues"
+  },
+  "homepage": "https://github.com/WebMasterIT/NeedForJs#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^10.1.1",
+    "electron-packager": "^15.1.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "description": ""
+}
